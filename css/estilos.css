@@ -1,0 +1,54 @@
+/* Define cores escuras */
+body {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 100;
+    padding: 0 150px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#fetchButton {
+    background-color: #53b9df; /* Cor de fundo */
+    border: none;              /* Remover borda */
+    color: white;              /* Cor do texto */
+    padding: 2px 10px;        /* Espaçamento interno */
+    text-align: center;        /* Alinhamento do texto */
+    text-decoration: none;     /* Remover sublinhado */
+    display: inline-block;     /* Exibir como bloco inline */
+    font-size: 16px;           /* Tamanho da fonte */
+    margin: 10px 2px;          /* Margens */
+    cursor: pointer;           /* Mostrar cursor de ponteiro ao passar sobre o botão */
+    border-radius: 8px;        /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+}
+
+#fetchButton:hover {
+    background-color: #a09a45; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estiliza o conteúdo principal */
+.container {
+    max-width: 800px;
+    padding: 0 150px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Ajusta o texto para ser justificado */
+p {
+    text-align: justify;
+     margin: 10px 2px; 
+}
+
+/* Cabeçalhos mais minimalistas */
+h1, h2, h3 {
+    
+    margin: 10px 2px; 
+    color: #40dac8; /* cor de destaque */
+}
+
